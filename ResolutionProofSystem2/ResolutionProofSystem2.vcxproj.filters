@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolExpre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cnf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoolExpre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cnf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Compare.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Compare.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Compare.Result">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Curiosity.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Curiosity.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Curiosity2.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Curiosity2.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="easy.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="easy.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meeting.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meeting.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="OccurCheck.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="OccurCheck.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="StarWar.KB">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="StarWar.Query">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

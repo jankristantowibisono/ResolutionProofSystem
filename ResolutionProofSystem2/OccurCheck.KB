@@ -1,0 +1,6 @@
+Variables: X,Y
+Constants: 
+Predicates: R(v1,v2)
+FOL start
+Forall X Exist Y [R(X,Y)]
+FOL end

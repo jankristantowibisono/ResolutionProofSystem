@@ -1,0 +1,11 @@
+Variables: X,Y
+Constants: "ObiWan","AnakinSkywalker"
+Predicates: WantToKill(v1,v2),Jedi(v1),Sith(v1),CanUseForce(v1),StudentOf(v1,v2)
+FOL start
+Forall X Forall Y [WantToKill(X,Y) & Jedi(Y) => ! Jedi(X)]
+Forall X [CanUseForce(x) <=> Jedi(X) | Sith(X)]
+Forall X Forall Y [StudentOf(X,Y) & CanUseForce(Y) => CanUseForce(X)]
+StudentOf("AnakinSkywalker","ObiWan")
+WantToKill("AnakinSkywalker","ObiWan")
+Jedi("ObiWan")
+FOL end

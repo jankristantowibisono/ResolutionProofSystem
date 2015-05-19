@@ -1,0 +1,13 @@
+=================Your KB : =================
+KB  : Forall X[Wolf(X,)=> animal(X,)]
+CNF : ! Wolf(X,) | animal(X,)
+KB  : Forall X[DonkeyKong(X,)=> animal(X,)]
+CNF : ! DonkeyKong(X,) | animal(X,)
+KB  : Exist X[Wolf(X,)]
+CNF : Wolf(X,)
+============================================
+===============Your Query : ================
+query : Exist X[animal(X,)]
+CNF   : animal(X,)
+============================================
+

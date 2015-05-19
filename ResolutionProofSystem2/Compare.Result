@@ -1,0 +1,15 @@
+=================Your KB : =================
+KB  : Forall X[Forall Y[chick(X,)& crocodile(Y,)=> smaller(X,Y,)]]
+CNF : ! chick(X,) | ! crocodile(Y,) | smaller(X,Y,)
+KB  : Forall X[Forall Y[crocodile(X,)& elephant(Y,)=> smaller(X,Y,)]]
+CNF : ! crocodile(X,) | ! elephant(Y,) | smaller(X,Y,)
+KB  : Forall X[Forall Y[Forall Z[smaller(X,Y,)& smaller(Y,Z,)=> smaller(X,Z,)]]]
+CNF : Forall Z[! smaller(X,Y,) | ! smaller(Y,Z,) | smaller(X,Z,)]
+KB  : Exist X[elephant(X,)]
+CNF : elephant(X,)
+============================================
+===============Your Query : ================
+query : Exist X[Exist Y[Exist Z[crocodile(Y,)& elephant(Z,)=> smaller(X,Z,)]]]
+CNF   : Exist Z[! crocodile(Y,) | ! elephant(Z,) | smaller(X,Z,)]
+============================================
+
